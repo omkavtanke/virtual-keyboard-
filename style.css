@@ -1,0 +1,75 @@
+.textarea{
+	margin-left: 350px;
+	margin-bottom: 100px;
+}
+.key{
+	width: 40px;
+	display: inline-block;
+	height: 40px;
+	border-radius: 4px;
+	margin: 3px;
+	border: 1px solid slategray;
+	padding: 4px;
+	text-align: center;
+	line-height: 40px;
+}
+
+.keyboard{
+	margin-left: 350px;
+	text-transform: uppercase;
+	border: 1px solid slategray;
+	padding: 5px;
+	border-radius: 4px;
+	width: 820px;
+}
+.key:hover{
+	color:#fff;
+	background: slategray;
+	cursor: pointer;
+
+}
+.active{
+	background: rgb(134, 134, 134);
+}
+.enter{
+	width: 95px;
+	text-transform: none;
+}
+.tab{
+	width: 60px;
+	text-transform: none;
+}
+.caps{
+	width: 75px;	
+	text-transform: none;
+}
+.slash{
+	width: 55px;
+}
+.shift{
+	width: 121px;
+	text-transform: none;
+}
+.ShiftRight{
+	width:40px;
+}
+.arrow{
+	height: 38px;
+}
+.ctrl{
+	text-transform: none;
+}
+.windows{
+	width: 24px;
+}
+.alt{
+	text-transform: none;
+}
+.space{
+	width: 320px;
+	text-transform: none;
+}
+.textarea{
+	width: 820px;
+	height: 200px;
+}
