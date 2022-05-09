@@ -134,7 +134,7 @@ function rusLetter() {
     } else if (lt[i] === 'я') {
       letters += '<br>';
     }
-    letters += `<div class ="key" data = "${lt[i + 1]}">${lt[i]}</div>`;
+    letters += `<div class ="key"  data = "${lt[i + 1]}">${lt[i]}</div>`;
     i += 1;
   }
   document.querySelector('.keyboard').innerHTML = letters;
